@@ -5,7 +5,7 @@ class Contoh1 extends CI_Controller
     public function index()
     {
         echo "<h1>perkenalan</h1>";
-        echo "nama saya ferdy, saya berumur 19 tahun, saya tinggal di jakarta";
+        echo "nama saya ferdy, saya berumur 19 tahun, saya tinggal di jakarta, saya makan nasi";
     }
 
     public function penjumlahan($n1, $n2)
