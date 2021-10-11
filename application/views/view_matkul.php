@@ -71,15 +71,15 @@
                 </tr>
                 <tr class="konten">
                     <th>nama mahasiswa </th>
-                    <th><input type="text" placeholder="masukan nama mahasiswa" name="mahasiswa"></th>
+                    <th><input type="text" placeholder="masukan nama mahasiswa" name="mahasiswa"><?php echo form_error('mahasiswa', '<small style="color: black">') ?></th>
                 </tr>
                 <tr class="konten">
                     <th>nim mahasiswa </th>
-                    <th><input type="number" placeholder="masukan nim mahasiswa" name="nim"></th>
+                    <th><input type="number" placeholder="masukan nim mahasiswa" name="nim"><?php echo form_error('nim', '<small style="color: black">') ?></th>
                 </tr>
                 <tr class="konten">
                     <th>tanggal lahir </th>
-                    <th><input type="date" placeholder="masukan tanggal lahir" name="tanggal"></th>
+                    <th><input type="date" placeholder="masukan tanggal lahir" name="tanggal"><?php echo form_error('tanggal', '<small style="color: black">') ?></th>
                 </tr>
                 <tr class="konten">
                     <th>jenis kelamin </th>
@@ -89,23 +89,23 @@
                             <option value="gay">gay</option>
                             <option value="lesbian">lesbian</option>
                             <option value="lainnya">lainnya</option>
-                        </select></th>
+                        </select><?php echo form_error('kelamin', '<small style="color: black">') ?></th>
                 </tr>
                 <tr class="konten">
                     <th>kode matkul </th>
-                    <th><input type="text" placeholder="input kode matkul" name="kode"></th>
+                    <th><input type="text" placeholder="input kode matkul" name="kode"><?php echo form_error('kode', '<small style="color: black">') ?></th>
                 </tr>
                 <tr class="konten">
                     <th>nama matkul </th>
-                    <th><input type="text" placeholder="input nama matkul" name="matkul"></th>
+                    <th><input type="text" placeholder="input nama matkul" name="matkul"><?php echo form_error('matkul', '<small style="color: black">') ?></th>
                 </tr>
                 <tr class="konten">
                     <th>sks matkul </th>
-                    <th><input type="number" placeholder="input sks matkul" name="sks"></th>
+                    <th><input type="number" placeholder="input sks matkul" name="sks"><?php echo form_error('sks', '<small style="color: black">') ?></th>
                 </tr>
                 <tr class="konten">
                     <th>dosen pengajar </th>
-                    <th><input type="text" placeholder="masukan nama dosen pengajar" name="dosen"></th>
+                    <th><input type="text" placeholder="masukan nama dosen pengajar" name="dosen"><?php echo form_error('dosen', '<small style="color: black">') ?></th>
                 </tr>
                 <tr class="submit">
                     <th><input type="submit"></th>
